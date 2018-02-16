@@ -33,7 +33,7 @@ func NewPassage() *Passage {
 	}
 }
 
-// NewWaypoint returns an initislised Waypoint.
+// NewWaypoint returns an initialised Waypoint.
 func NewWaypoint(lat, lon float64) Waypoint {
 	return Waypoint{
 		OID: bson.NewObjectId(),
